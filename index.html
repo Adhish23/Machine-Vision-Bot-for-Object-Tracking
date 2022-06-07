@@ -1,0 +1,28 @@
+<!--
+   index.html
+   
+-->
+
+<html>
+  <head>
+    <title>Machine Vision Enabled Bot For Object Tracking</title>
+    <link rel="stylesheet" href='../static/style.css'/>
+    <style>
+		body {
+			text-align: center;
+		}
+    </style>
+  </head>
+  <body>
+    <h1>MVBOT Live Streaming</h1>
+    <h3><img src="{{ url_for('video_feed') }}" width="40%"></h3>
+	<hr>
+	<h5> PAN Angle: <a href="/pan/-"class="button">-</a> [ {{ panServoAngle }} ] <a href="/pan/+"class="button">+</a> </h5>
+	<h5> TILT Angle: <a href="/tilt/-"class="button">-</a> [ {{ tiltServoAngle }} ] <a href="/tilt/+"class="button">+</a> </h5>
+	<h5> <a href="/forward"class="button">Forward</a> </h5>
+	<h5> <a href="/left"class="button">Left</a> <a href="/stop"class="button">Stop</a> <a href="/right"class="button">Right</a> </h5>
+	<h5> <a href="/reverse"class="button">Reverse</a> </h5>
+	<hr>
+	<p> Testing Phase </p>
+  </body>
+</html>
