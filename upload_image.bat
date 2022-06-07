@@ -1,0 +1,1 @@
+call C:\Users\Admin\AppData\Local\Programs\Python\Python36\python.exe C:\Users\Admin\Desktop\KJSCE_Object_Detection\labelImg\labelImg.py
